@@ -1,0 +1,206 @@
+/* Layout */
+html, body, #Carousel {
+	height: 100%;
+	overflow-x: hidden;
+}
+
+body {
+    background: url(../imagens/capa.png),
+				url(../imagens/ruido.png),
+                linear-gradient(50deg,#ff4169,#7c26f8);
+    background-attachment: fixed;
+    font-family: Helvetica,Arial,sans-serif;
+}
+
+/* Header Menu */
+nav.navbar-transparente {
+    background: rgba(0, 0, 0, 0.6);
+    padding: 15px 0;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: white;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+	color: #9bf0e1;
+}
+
+.navbar-light .navbar-toggler {
+    color: rgba(255, 255, 255, 0.5);
+    border-color: rgba(255, 255, 255, 0.5);
+}
+
+.divisor {
+    width: 1px;
+    background: white;
+    margin: 12px 15px;
+}
+
+/* Carousel */
+#Carousel {
+    text-align: center;
+}
+
+#Carousel h1 {
+    color: white;
+    margin-bottom: 50px;
+    letter-spacing: -0.05em;
+    font-weight: 900;
+}
+
+.btn-roxo {
+    text-transform: uppercase;
+    color: white;
+    background-color: #7c25f8;
+    border-radius: 50px;
+}
+
+.btn-roxo:hover {
+    color: white;
+    background-color: #6207e3;
+}
+
+.btn-branco {
+    text-transform: uppercase;
+    color: white;
+    border: 2px solid white;
+    border-radius: 50px;
+}
+
+.btn-branco:hover {
+    color: black;
+    background-color: white;
+}
+
+.carousel-control-next, .carousel-control-prev {
+	width: 5%;
+}
+
+/* Recursos */
+#recursos {
+    background: white;
+    padding: 30px 0;
+}
+
+#recursos h2, h3{
+    color: #7c25f8;
+    font-weight: 700;
+    letter-spacing: -0.04em;
+}
+
+#recursos h2 {
+    font-size: 3em;
+}
+
+#recursos h3 {
+    font-size: 2em;
+}
+
+.capas {
+    padding: 10px 0;
+}
+
+/* Facil */
+#facil {
+    padding: 30px 0;
+}
+
+#facil h2, h3{
+    font-weight: 700;
+    letter-spacing: -0.04em;
+}
+
+#facil h2 {
+    color: white;
+    font-size: 3em;
+}
+
+#facil h3 {
+    color: #9bf0e1;
+    font-size: 2em;
+}
+
+#facil p {
+    color: white;
+}
+
+.rotacionar {
+    transform: rotate(30deg);
+    padding-left: 80px;
+}
+
+/* Footer */
+footer {
+    background-color: black;
+    padding: 50px 0 20px 0;
+    position: relative;
+}
+
+footer h4 {
+    color: #919496;
+    text-transform: uppercase;
+    font-size: 0.8em;
+}
+
+footer ul {
+    list-style: none;
+}
+
+footer ul li {
+    float: right;
+    margin: 0 5px;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+    font-size: 0.8em;
+}
+
+footer a:hover {
+    color: #9bf0e1;
+    text-decoration: none;
+}
+
+/* Breakpoints */
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+    #Carousel h1 {
+        font-size: 2.5em;
+    }
+    .btn-custon {
+        margin: 10px 15px;
+    }
+    .btn-roxo {
+        font-size: 1em;
+    }
+    .btn-branco {
+        font-size: 1em;
+    }
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+    #Carousel h1 {
+        font-size: 3em;
+    }
+    .btn-custon {
+        margin: 10px 15px;
+    }
+    .btn-roxo {
+        font-size: 1em;
+    }
+    .btn-branco {
+        font-size: 1em;
+    }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {}
